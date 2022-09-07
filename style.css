@@ -1,0 +1,274 @@
+body {
+    background-color: #181f2a;
+   
+}
+
+.main {
+    position: relative;
+}
+
+header img {
+    height: 30px;
+}
+
+.nav-list li {
+    color: white;
+    display: inline;
+    margin-right: 12px;
+   
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+     background-color:  #181f2a;
+    top:0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 7;
+    
+}
+
+.banner {
+    text-align: center;
+    color: white;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 710px;
+}
+
+.banner div img{
+    width: 100%;
+}
+
+.banner-btn {
+    padding: 20px 80px;
+    border-radius: 40px;
+    background: linear-gradient(to right,#65e2d9,#339ecc);
+    color: white;
+    margin-top: 20px;
+}
+
+.features {
+    margin-bottom: 150px;
+}
+
+.feature-1, .feature-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.feature-1 div, .feature-2 div {
+    text-align: center;
+    width: 30%;
+    color: white;
+    min-width: 400px;
+    margin-bottom: 40px;
+}
+
+.banner-2 {
+    display: flex;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-2 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.image-2 img {
+    width: 100%;
+}
+
+.text-2 {
+    max-width: 450px;20
+}
+
+.image-2, .text-2 {
+   padding: 30px 40px;
+   color: white;
+}
+
+.text-2 a {
+color: #65e2d9;
+text-decoration: none;
+border-bottom: 1px solid #65e2d9;
+padding-bottom: 5px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 25px;
+    background-image: url(./Resources/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+}
+
+.test-1, .test-2, .test-3 {
+background-color: #202a3c;
+margin: 15px;
+padding: 20px;
+color: white;
+}
+
+.user {
+    display: flex;
+    
+}
+
+.details h4, .details p{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.details h4{
+    padding-bottom: 2px;
+}
+
+
+
+.profile {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.access {
+    width: 65%;
+    background-color: #1c2431;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+   bottom: 400px;
+    left: 15%;
+    z-index: 4;
+}
+
+input[type='email'] {
+    padding: 20px;
+    width: 50%;
+    border-radius: 40px;
+    border: 0;
+}
+
+input[type='submit'] {
+    padding: 15px;
+    width: 30%;
+    border-radius: 40px;
+    border: 0;
+    color: white;
+    background: linear-gradient(to right,#65e2d9,#339ecc);
+}
+
+.access-head {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.letter {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.footer {
+    color: white;
+    background-color: #0b1523;
+    padding-top: 200px;
+  
+}
+
+.footer-2a {
+    display: flex;
+}
+
+
+.location {
+    display: flex;
+   align-items: baseline;
+   line-height: 20px;
+}
+
+.location img {
+    height: 13px;
+    margin-right: 10px;
+}
+
+.foot-li {
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.foot-li img {
+    height: 13px;
+    margin-right: 10px;
+}
+
+
+.footer-1 {
+    margin: 30px;
+}
+
+.footer-2 {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.footer-2a {
+    width: 55%;
+    
+}
+
+.footer-2b {
+    display: flex;
+}
+
+.footer-2b li {
+    margin-bottom: 20px;
+}
+
+.footer-2c {
+    display: flex;
+    
+}
+
+.footer-2c div {
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
